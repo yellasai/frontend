@@ -77,7 +77,7 @@ const LoginSignup = () => {
             placeholder="Email Address"
           />
           <input
-            name="Password"
+            name="password"
             value={formData.password}
             onChange={changeHandler}
             type="password"
